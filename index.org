@@ -1,0 +1,44 @@
+* Slide Options                           :noexport:
+# ======= Appear in cover-slide ====================
+#+TITLE: SQL - Joins in depth
+#+SUBTITLE:  JOINS, JOINS, JOINS
+#+COMPANY: Codeable
+#+AUTHOR: Albert Castellano Moreno
+
+# ======= Appear in thank-you-slide ================
+#+GITHUB: http://github.com/acastemoreno
+
+# ======= Appear under each slide ==================
+#+FAVICON: images/ruby.png
+#+ICON: images/ruby.png
+#+HASHTAG: #SQL #Ruby #Codeable
+
+# ======= Google Analytics =========================
+#+ANALYTICS: ----
+
+# ======= Org settings =========================
+#+EXCLUDE_TAGS: noexport
+#+OPTIONS: toc:nil num:nil ^:nil
+
+* Buscando información
+  :PROPERTIES:
+  :SLIDE:    segue dark quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* 
+:PROPERTIES:
+:FILL:     images/sqljoin.jpeg
+:TITLE:    white
+:SLIDE:    white cover-image
+:END:
+
+
+* Gracias ˊ・ω・ˋ
+:PROPERTIES:
+:SLIDE: thank-you-slide segue
+:ASIDE: right
+:ARTICLE: flexbox vleft auto-fadein
+:END:
+
