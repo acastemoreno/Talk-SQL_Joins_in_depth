@@ -9,8 +9,8 @@
 #+GITHUB: http://github.com/acastemoreno
 
 # ======= Appear under each slide ==================
-#+FAVICON: images/ruby.png
-#+ICON: images/ruby.png
+#+FAVICON: images/join-logo.png
+#+ICON: images/join-logo.png
 #+HASHTAG: #SQL_Joins #Codeable
 
 # ======= Google Analytics =========================

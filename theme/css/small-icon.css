@@ -1,5 +1,5 @@
 slides > slide:not(.nobackground):before {
-background: url(../../images/ruby.png) no-repeat 0 50%;
+background: url(../../images/join-logo.png) no-repeat 0 50%;
 font-size: 12pt;
 content: "#SQL_Joins #Codeable";
 position: absolute;
