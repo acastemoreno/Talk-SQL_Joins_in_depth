@@ -1,7 +1,7 @@
 slides > slide:not(.nobackground):before {
 background: url(../../images/ruby.png) no-repeat 0 50%;
 font-size: 12pt;
-content: "#SQL #Ruby #Codeable";
+content: "#SQL_Joins #Codeable";
 position: absolute;
 bottom: 20px;
 left: 60px;

@@ -108,7 +108,90 @@ ON <b>"es".id = "an".especie_id</b>
 solo para nota[fn:1]
 #+END_QUOTE
 
-* Gracias ˊ・ω・ˋ
+* 
+  :PROPERTIES:
+  :FILL:     images/sql-joins.png
+  :TITLE:    white
+  :SLIDE:    white cover-image
+  :END:
+
+* Inner Join
+  :PROPERTIES:
+  :ARTICLE:  smaller
+  :END:
+#+BEGIN_SRC SQL
+SELECT *
+FROM "especies" AS "es"
+<b>JOIN</b> "animales" AS "an" ON "an".especie_id = "es".id;
+#+END_SRC
+
+#+BEGIN_CENTER
+#+ATTR_HTML: :height 300px
+[[file:images/inner_example.png]]
+#+END_CENTER
+
+* Left Join
+  :PROPERTIES:
+  :ARTICLE:  smaller
+  :END:
+#+BEGIN_SRC SQL
+SELECT *
+FROM "especies" AS "es"
+<b>LEFT JOIN</b> "animales" AS "an" ON "an".especie_id = "es".id;
+#+END_SRC
+
+#+BEGIN_CENTER
+#+ATTR_HTML: :height 300px
+[[file:images/left_join_example.png]]
+#+END_CENTER
+
+* Right Join
+  :PROPERTIES:
+  :ARTICLE:  smaller
+  :END:
+#+BEGIN_SRC SQL
+SELECT *
+FROM "especies" AS "es"
+<b>RIGHT JOIN</b> "animales" AS "an" ON "an".especie_id = "es".id;
+#+END_SRC
+
+#+BEGIN_CENTER
+#+ATTR_HTML: :height 300px
+[[file:images/right_join_example.png]]
+#+END_CENTER
+
+
+* Full Join
+  :PROPERTIES:
+  :ARTICLE:  smaller
+  :END:
+#+BEGIN_SRC SQL
+SELECT *
+FROM "especies" AS "es"
+<b>FULL JOIN</b> "animales" AS "an" ON "an".especie_id = "es".id;
+#+END_SRC
+
+#+BEGIN_CENTER
+#+ATTR_HTML: :height 300px
+[[file:images/full_join_example.png]]
+#+END_CENTER
+
+* BONUS (CROSS JOIN)
+  :PROPERTIES:
+  :ARTICLE:  smaller
+  :END:
+#+BEGIN_SRC SQL
+SELECT *
+FROM "especies" AS "es"
+<b>CROSS JOIN</b> "animales" AS "an"
+#+END_SRC
+
+#+BEGIN_CENTER
+#+ATTR_HTML: :height 300px
+[[file:images/cross_join_example.png]]
+#+END_CENTER
+
+* Gracias ʕ•ᴥ•ʔ
 :PROPERTIES:
 :SLIDE: thank-you-slide segue
 :ASIDE: right
