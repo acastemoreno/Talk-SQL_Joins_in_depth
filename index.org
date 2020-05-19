@@ -41,7 +41,7 @@
   :SLIDE:    white contain-image
   :END:
 
-* Necesidad
+* Bring some light
   :PROPERTIES:
   :SLIDE:    segue dark quote
   :ASIDE:    right bottom
